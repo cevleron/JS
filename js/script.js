@@ -36,9 +36,9 @@ const personalMovieDB = {
         if (personalMovieDB.count < 10) {
             console.log('Просмотренно довольно мало фильмов');
         } else if (personalMovieDB.count >= 10 && personalMovieDB.count < 30) {
-            console .log('Вы классный зритель')
+            console.log('Вы классный зритель');
         } else if (personalMovieDB.count >= 30) {
-            console.log('Вы киноман')
+            console.log('Вы киноман');
         } else {
             console.log('Произошла ошибка');
         }
@@ -49,7 +49,7 @@ const personalMovieDB = {
     }
     },
     
-    toggleVisible: function {
+    toggleVisible: function (){
         if (personalMovieDB.privat) {
             personalMovieDB.privat = false;
         } else {
